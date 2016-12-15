@@ -1,11 +1,7 @@
 var index = require('./index').index
-var customMatchers = require('./../../test/helpers/custom_matchers/ready')
 
 
 describe('Routes', function () {
-  beforeEach(function () {
-    jasmine.addMatchers(customMatchers)
-  })
 
   it('includes Express', function () {
     var req, res, next;
