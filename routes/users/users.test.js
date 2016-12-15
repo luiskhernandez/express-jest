@@ -1,5 +1,4 @@
 var users = require('./users')
-var app = require('../../app')
 
 describe('User Routes', function () {
   describe('index', () => {
